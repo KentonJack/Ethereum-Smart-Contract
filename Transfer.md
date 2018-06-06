@@ -1,6 +1,6 @@
 # Silly Bugs in Smart Contracts
 
-Even a Solidity beginner could notice that thousands of contracts contains deployed on Ethereum platform contain critical bugs. Taking transfer() and transferFrom() as an example, SECBIT Lab has scanned contracts on Ethereum and found 81 of them have made mistakes on simple comparison conditions. Moreover, code containing this problem could be seen all over, even on professional websites like StackOverflow or StackExchange!
+Even a Solidity beginner could notice that thousands of contracts deployed on Ethereum platform contain critical bugs. Taking transfer() and transferFrom() as an example, SECBIT Lab has scanned contracts on Ethereum and found 81 of them have made mistakes on simple comparison conditions. Moreover, code containing this problem could be seen all over, even on professional websites like StackOverflow or StackExchange!
 
 #### Analysis of Bug Examples
 
