@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Create Your Own ERC20 Smart Contract</title>
+  <meta charset="utf-8">
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdn.bootcss.com/popper.js/1.12.5/umd/popper.min.js"></script>
+  <script src="https://cdn.bootcss.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  <style type="text/css">
+    body{
+      background-color: #2f3e45;
+    }
+    .container{
+      margin-top: 25px;
+      color: white;
+      text-align: center;
+    }
+    h1{
+      color: #4d78a2;
+    }
+    #header{
+      background-color: rgba(54, 107, 167, 0.7);
+      color: white;
+      height: 50px;
+      font-size: 20px;
+    }
+    #footer{
+      background-color: #001;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+<div id="header">
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div id="slogan" style="width: 90%;">
+      <p style="font-weight: bold">Create Your Own Smart Contract</p>
+    </div>
+    <div id="web" style="width: 10%;">
+      <a href="https://secbit.io/"><img src="https://aciclo.net:3000/zkt/audit-report/raw/master/template/common/website.png" style="height: 30px;"></a>
+    </div>
+  </nav>
+</div>
+<div id="app" class="container">
+  <img src="https://aciclo.net:3000/zkt/audit-report/raw/master/template/common/logo2.png" style="height: 250px;">
+  <h1>Contract Details</h1>
+  <p>Name:</p>
+  <input v-model="name" placeholder="">
+  <p>Symbol:</p>
+  <input v-model="symbol" placeholder="">
+  <p>TotalSupply:</p>
+  <input v-model="totalsupply" placeholder="">
+  <p>Decimals:</p>
+  <input v-model="decimals" placeholder="">
+  <!-- <p>消息是: {{ message }}</p> -->
+  <p>Optional Features：</p>
+  <input type="checkbox" id="burn" value="Burn" v-model="checkedNames">
+  <label for="burn">Burn</label>
+  <input type="checkbox" id="mint" value="Mint" v-model="checkedNames">
+  <label for="mint">Mint</label>
+  <input type="checkbox" id="pause" value="Pause" v-model="checkedNames">
+  <label for="pause">Pause</label>
+  <br>
+  <!-- <span>Functions Selected: {{ checkedNames }}</span> -->
+  <button type="submit" class="btn btn-info btn-lg" src="">Submit</button>
+  <br>
+  <br>
+  <br>
+</div>
+<div id="footer">
+  <nav class="navbar navbar-default navbar-fixed-bottom">
+    <p>Copyright © 2018 SECBIT. All Rights Reserved.</p>
+  </nav>
+</div>
+<script>
+new Vue({
+  el: '#app',
+  data: {
+    name: '',
+    symbol: '',
+    totalsupply: '',
+    decimals: '',
+    checkedNames: []
+  }
+})
+</script>
+</body>
+</html>
