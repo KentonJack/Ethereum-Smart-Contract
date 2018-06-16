@@ -123,7 +123,7 @@ All in all, strictly follow the ERC20 specifications and you shall be fine. Take
 
 1. UselessEthereumToken(UET), ERC20 Token, allows attackers to steal all victim's balances (CVE-2018-10468): <https://medium.com/@jonghyk.song/uselessethereumtoken-uet-erc20-token-allows-attackers-to-steal-all-victims-balances-543d42ac808e>
 
-​     2. CVE-2018-10468: <http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-10468>
+2. CVE-2018-10468: <http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-10468>
 
 3. OpenZeppelin: https://github.com/OpenZeppelin/openzeppelin-solidity/tree/master/contracts/token/ERC20
 4. ConsenSys: https://github.com/ConsenSys/Tokens/tree/master/contracts/eip20
