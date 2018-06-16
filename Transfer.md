@@ -4,7 +4,7 @@ Even a Solidity beginner could notice that thousands of contracts deployed on Et
 
 #### Analysis of Bug Examples
 
-Please notify that all code in this section contains vulnerabilities. Do Not Copy the Code.
+***Please notify that all code in this section contains vulnerabilities. Do Not Copy the Code.***
 
 Here is a snippet:
 
